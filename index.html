@@ -49,6 +49,15 @@
 
             </nav>
 
+            <button
+                type="button"
+                class="theme-toggle"
+                id="themeToggle"
+                aria-label="Switch to dark mode"
+                aria-pressed="false">
+                ☾
+            </button>
+
         </div>
 
     </header>
@@ -58,26 +67,40 @@
 
         <section class="hero" aria-labelledby="hero-title">
 
-            <div class="container">
+            <div class="container hero-grid">
 
-                <p class="intro">Hello, I'm</p>
+                <div class="hero-content">
 
-                <h1 id="hero-title">Sherline</h1>
+                    <p class="intro">Hello, I'm</p>
 
-                <p class="hero-text">
-                    A Computer Science student interested in software
-                    development, web technologies and problem solving.
-                </p>
+                    <h1 id="hero-title">Sherline</h1>
 
-                <div class="hero-buttons">
+                    <p class="hero-text">
+                        A Computer Science student interested in software
+                        development, web technologies and problem solving.
+                    </p>
 
-                    <a href="projects.html" class="button">
-                        View Projects
-                    </a>
+                    <div class="hero-buttons">
 
-                    <a href="contact.html" class="button button-outline">
-                        Contact Me
-                    </a>
+                        <a href="projects.html" class="button">
+                            View Projects
+                        </a>
+
+                        <a href="contact.html" class="button button-outline">
+                            Contact Me
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-card" aria-hidden="true">
+
+                    <div class="hero-card-inner">
+                        <span>&lt;/&gt;</span>
+                        <p>Build · Learn · Create</p>
+                    </div>
 
                 </div>
 
@@ -90,9 +113,15 @@
 
             <div class="container">
 
-                <h2 id="welcome-title">Welcome</h2>
+                <div class="section-heading">
 
-                <p>
+                    <p class="section-label">Portfolio</p>
+
+                    <h2 id="welcome-title">Welcome</h2>
+
+                </div>
+
+                <p class="section-intro">
                     This portfolio showcases a selection of projects,
                     technical skills and areas of interest in software
                     and web development.
@@ -116,6 +145,9 @@
         </div>
 
     </footer>
+
+
+    <script src="js/script.js"></script>
 
 </body>
 

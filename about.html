@@ -49,6 +49,15 @@
 
             </nav>
 
+            <button
+                type="button"
+                class="theme-toggle"
+                id="themeToggle"
+                aria-label="Switch to dark mode"
+                aria-pressed="false">
+                ☾
+            </button>
+
         </div>
 
     </header>
@@ -59,6 +68,8 @@
         <section class="page-header" aria-labelledby="about-title">
 
             <div class="container">
+
+                <p class="section-label">Introduction</p>
 
                 <h1 id="about-title">About Me</h1>
 
@@ -74,25 +85,35 @@
 
         <section class="section" aria-labelledby="about-section-title">
 
-            <div class="container">
+            <div class="container about-grid">
 
-                <h2 id="about-section-title">About</h2>
+                <div>
 
-                <p>
-                    I am a Computer Science student interested in
-                    software development and technology.
-                </p>
+                    <p class="section-label">My Journey</p>
 
-                <p>
-                    I enjoy learning programming concepts, developing
-                    small applications and improving my problem-solving
-                    skills through practical projects.
-                </p>
+                    <h2 id="about-section-title">About</h2>
 
-                <p>
-                    I am continuously exploring new technologies and
-                    working on improving my technical knowledge.
-                </p>
+                </div>
+
+                <div>
+
+                    <p>
+                        I am a Computer Science student interested in
+                        software development and technology.
+                    </p>
+
+                    <p>
+                        I enjoy learning programming concepts, developing
+                        small applications and improving my problem-solving
+                        skills through practical projects.
+                    </p>
+
+                    <p>
+                        I am continuously exploring new technologies and
+                        working on improving my technical knowledge.
+                    </p>
+
+                </div>
 
             </div>
 
@@ -103,11 +124,20 @@
 
             <div class="container">
 
-                <h2 id="skills-title">Skills & Interests</h2>
+                <div class="section-heading">
+
+                    <p class="section-label">What I Explore</p>
+
+                    <h2 id="skills-title">Skills & Interests</h2>
+
+                </div>
+
 
                 <div class="card-grid">
 
                     <article class="card">
+
+                        <span class="card-number">01</span>
 
                         <h3>Programming</h3>
 
@@ -119,6 +149,8 @@
 
 
                     <article class="card">
+
+                        <span class="card-number">02</span>
 
                         <h3>Web Development</h3>
 
@@ -132,6 +164,8 @@
 
                     <article class="card">
 
+                        <span class="card-number">03</span>
+
                         <h3>Databases</h3>
 
                         <p>
@@ -143,6 +177,8 @@
 
 
                     <article class="card">
+
+                        <span class="card-number">04</span>
 
                         <h3>Problem Solving</h3>
 
@@ -156,6 +192,8 @@
 
                     <article class="card">
 
+                        <span class="card-number">05</span>
+
                         <h3>Learning</h3>
 
                         <p>
@@ -167,6 +205,8 @@
 
 
                     <article class="card">
+
+                        <span class="card-number">06</span>
 
                         <h3>Development</h3>
 
@@ -197,6 +237,9 @@
         </div>
 
     </footer>
+
+
+    <script src="js/script.js"></script>
 
 </body>
 

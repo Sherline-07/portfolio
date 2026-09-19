@@ -51,6 +51,15 @@
 
             </nav>
 
+            <button
+                type="button"
+                class="theme-toggle"
+                id="themeToggle"
+                aria-label="Switch to dark mode"
+                aria-pressed="false">
+                ☾
+            </button>
+
         </div>
 
     </header>
@@ -61,6 +70,8 @@
         <section class="page-header" aria-labelledby="projects-title">
 
             <div class="container">
+
+                <p class="section-label">My Work</p>
 
                 <h1 id="projects-title">Projects</h1>
 
@@ -78,16 +89,31 @@
 
             <div class="container">
 
-                <h2 id="project-list-title">Selected Projects</h2>
+                <div class="section-heading">
 
-                <div class="card-grid">
+                    <p class="section-label">Selected Work</p>
+
+                    <h2 id="project-list-title">Projects</h2>
+
+                </div>
+
+
+                <div class="project-grid">
 
 
                     <article class="project-card">
 
-                        <span class="project-type">
-                            Academic Project
-                        </span>
+                        <div class="project-top">
+
+                            <span class="project-type">
+                                Academic Project
+                            </span>
+
+                            <span class="project-number">
+                                01
+                            </span>
+
+                        </div>
 
                         <h3>
                             Student Management System
@@ -107,9 +133,17 @@
 
                     <article class="project-card">
 
-                        <span class="project-type">
-                            Web Project
-                        </span>
+                        <div class="project-top">
+
+                            <span class="project-type">
+                                Web Project
+                            </span>
+
+                            <span class="project-number">
+                                02
+                            </span>
+
+                        </div>
 
                         <h3>
                             To-Do List Application
@@ -129,9 +163,17 @@
 
                     <article class="project-card">
 
-                        <span class="project-type">
-                            Web Project
-                        </span>
+                        <div class="project-top">
+
+                            <span class="project-type">
+                                Web Project
+                            </span>
+
+                            <span class="project-number">
+                                03
+                            </span>
+
+                        </div>
 
                         <h3>
                             Online Quiz Application
@@ -169,6 +211,9 @@
         </div>
 
     </footer>
+
+
+    <script src="js/script.js"></script>
 
 </body>
 
